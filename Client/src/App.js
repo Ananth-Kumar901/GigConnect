@@ -1,18 +1,18 @@
-import { useContext, useState, useEffect } from 'react';
-import { Parallax, Autoplay, Pagination, Navigation } from "swiper";
+import { useContext, useState, useEffect, useRef } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Parallax, Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Helmet } from "react-helmet";
-import { useRef } from 'react';
 import Navbar from './Components/Navbar';
 import About from './Components/About';
 import GoToTop from './Components/GoToTop';
 import Footer from './Components/Footer';
-import './App.css'
+import CateCards from './Components/CateCards.jsx';
+import { UserContext } from "./Routing";
+import './App.css';
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import CateCards from './Components/CateCards.jsx';
-import { UserContext } from "./Routing";
+
 
 
 const App = () => {

@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
-import { Pagination, Navigation, EffectCoverflow } from "swiper";
+import { Pagination, Navigation, EffectCoverflow } from "swiper/modules";
 import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 
 const CateCards = () => {
